@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hazel != not a dev</title>
+    <style>
+        body {
+            background-color: #01010F;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #4799DB;
+        }
+
+
+        .fullscreen-container {
+            width: 100vw;
+            height: 110vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            flex-direction: column;
+        }
+
+
+        .ascii-container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #ascii-art {
+            font-family: monospace;
+            font-size: 18px;
+            color: #4799DB;
+            background-color: #01010F;
+            border: none;
+            outline: none;
+            resize: none;
+            width: 600px;
+            height: 175px;
+            overflow: hidden;
+        }
+
+
+        .additional-text {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .additional-text a {
+            color: #98C7EE;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .additional-text a:hover {
+            color: #6F2DCD;
+        }
+
+
+        .secondpart {
+            margin-top: 20px;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #020219;
+            height: 10vh;
+            display: flex;
+        }
+
+
+        footer {
+            background-color: #15021D;
+            color: #E19AFF;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fullscreen container -->
+    <div class="fullscreen-container">
+        <div class="ascii-container">
+            <textarea id="ascii-art" readonly>
+ ___   ___   ________     ______  ______   __          
+/__/\ /__/\ /_______/\   /_____/\/_____/\ /_/\         
+\::\ \\  \ \\::: _  \ \  \:::__\/\::::_\/_\:\ \        
+ \::\/_\ .\ \\::(_)  \ \    /: /  \:\/___/\\:\ \       
+  \:: ___::\ \\:: __  \ \  /::/___ \::___\/_\:\ \____  
+   \: \ \\::\ \\:.\ \  \ \/_:/____/\\:\____/\\:\/___/\ 
+    \__\/ \::\/ \__\/\__\/\_______\/ \_____\/ \_____\/ 
+                                                     
+            </textarea>
+            <div class="additional-text">
+                <p>This is my storage page! I have some stuff stored here, publically.</p>
+                <br> Here's a mashup I made, <a href="audio/Something In Bloom.m4a">Something In Bloom!</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Second part div -->
+    <div class="secondpart">
+        <div class="extra-text">
+            <p>Your local transgender lesbian that kind of knows how to code! <br> I know some Python, GDScript, and ALOT of Scratch/PenguinMod. </p>
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Hazel &copy; 2024-present. You may fork this project, however not for commercial use.
+    </footer>
+
+    <script>
+        // Check if the device is mobile and adjust the width of the ASCII art textarea accordingly
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        }
+
+        if (isMobileDevice()) {
+            document.getElementById("ascii-art").style.width = "90%";
+        }
+    </script>
+</body>
+</html>

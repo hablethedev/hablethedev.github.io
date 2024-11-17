@@ -1,1 +1,80 @@
-// styles.css moment
+body, html {
+    margin: 0
+    padding: 0
+    width: 100%
+    height: 100%
+    font-family: arial, sans-serif
+    background-color: #121212
+    color: white
+    scroll-behavior: smooth
+}
+
+.slide {
+    width: 100%
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-end
+    padding: 0 10%
+    box-sizing: border-box
+    position: relative
+}
+
+.right-aligned {
+    text-align: right
+}
+
+.subtitle {
+    font-size: 1.5rem
+    margin-top: -20px
+}
+
+.flags {
+    display: flex
+    margin-top: 20px
+}
+
+.flag {
+    width: 30px
+    height: 20px
+    border-radius: 5px
+    margin-left: 10px
+}
+
+// TODO: actually make this trans/lesbian flags, this is so goofy lol
+
+.trans-flag {
+    background: linear-gradient(to bottom, #5bcefa, #ffd700, #ffffff, #ff69b4, #ffc0cb)
+}
+
+.lesbian-flag {
+    background: linear-gradient(to bottom, #d50255, #e5026c, #ff0a54, #ffc0cb, #ff69b4)
+}
+
+.scroll-down {
+    position: absolute
+    bottom: 20px
+    right: 10%
+    font-size: 1rem
+    cursor: pointer
+}
+
+.main-content {
+    display: block
+    padding: 100px
+}
+
+section {
+    margin-bottom: 100px
+}
+
+.scroll-to {
+    background-color: #ff69b4
+    color: #121212
+    padding: 10px 20px
+    border: none
+    border-radius: 5px
+    cursor: pointer
+    text-decoration: none
+}

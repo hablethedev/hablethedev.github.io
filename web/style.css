@@ -54,10 +54,11 @@ body, html {
 .main-content {
     display: block;
     padding: 200px;
+    margin-bottom: 350px;
 }
 
 section {
-    margin-bottom: 350px;
+    margin-bottom: 100px;
 }
 
 

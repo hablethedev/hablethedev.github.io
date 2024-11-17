@@ -19,7 +19,7 @@ body, html {
     padding: 0 10%;
     box-sizing: border-box;
     position: relative;
-    padding-bottom: 550px;
+    margin-bottom: 150;
 }
 .right-aligned {
     text-align: right;

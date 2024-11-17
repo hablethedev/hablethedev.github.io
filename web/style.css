@@ -35,7 +35,7 @@ body, html {
 }
 
 .flag-wrapper {
-    width: 60px;
+    width: 120px;
     height: 40px;
     margin-left: 10px;
     border-radius: 10px;
@@ -43,7 +43,7 @@ body, html {
 }
 
 .flag {
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: transparent;
     

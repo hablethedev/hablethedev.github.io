@@ -20,7 +20,6 @@ body, html {
     box-sizing: border-box;
     position: relative;
 }
-// right align content
 .right-aligned {
     text-align: right;
 }
@@ -36,35 +35,34 @@ body, html {
 }
 
 .flag {
-    width: 30px;
-    height: 20px;
-    border-radius: 5px;
+    width: 40px;
+    height: 40px;
     margin-left: 10px;
+    border-radius: 50%;
+    background-color: transparent;
 }
 
-.trans-flag {
-    background: linear-gradient(to bottom, #5bcefa, #ffd700, #ffffff, #ff69b4, #ffc0cb);
-}
-
-.lesbian-flag {
-    background: linear-gradient(to bottom, #d50255, #e5026c, #ff0a54, #ffc0cb, #ff69b4);
-}
-
-.scroll-down {
-    position: absolute;
-    bottom: 20px;
-    right: 10%;
-    font-size: 1rem;
-    cursor: pointer;
-}
 
 .main-content {
     display: block;
-    padding: 100px;
+    padding: 200px;
 }
 
 section {
     margin-bottom: 100px;
+}
+
+
+.scroll-down {
+    position: absolute;
+    bottom: 40px;
+    right: 10%;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #c51077;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
 }
 
 .scroll-to {

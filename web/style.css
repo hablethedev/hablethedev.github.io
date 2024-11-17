@@ -34,14 +34,21 @@ body, html {
     margin-top: 20px;
 }
 
-.flag {
-    
+.flag-wrapper {
     width: 60px;
     height: 40px;
     margin-left: 10px;
     border-radius: 20px;
-    background-color: transparent;
+    overflow: hidden;
 }
+
+.flag {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    
+}
+		
 
 
 .main-content {

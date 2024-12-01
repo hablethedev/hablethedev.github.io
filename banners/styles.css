@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
+    text-transform: lowercase; 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff69b4; 
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+#banner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.banner-item {
+    display: flex;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+
+.banner-item:hover {
+    transform: scale(1.05);
+}
+
+.banner-image {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.banner-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.label {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #bbb;
+}

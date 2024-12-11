@@ -16,11 +16,21 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 0 10%;
     box-sizing: border-box;
     position: relative;
     margin-bottom: 250px;
 }
+
+.slide {
+    padding: 0 10%;
+}
+
+@media (max-width: 600px) {
+    .slide {
+        padding: 0 5%;
+    }
+}
+
 .right-aligned {
     text-align: right;
 }

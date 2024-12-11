@@ -19,16 +19,7 @@ body, html {
     box-sizing: border-box;
     position: relative;
     margin-bottom: 250px;
-}
-
-.slide {
     padding: 0 10%;
-}
-
-@media (max-width: 600px) {
-    .slide {
-        padding: 0 5%;
-    }
 }
 
 .right-aligned {
@@ -59,8 +50,6 @@ body, html {
     background-color: transparent;
     float: left;
 }
-		
-
 
 .main-content {
     display: block;
@@ -70,7 +59,6 @@ body, html {
 section {
     margin-bottom: 100px;
 }
-
 
 .scroll-down {
     position: absolute;
@@ -92,4 +80,32 @@ section {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+    .slide {
+        padding: 0 5%;
+    }
+
+    .right-aligned {
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 50px;
+    }
+
+    .scroll-down {
+        right: 5%;
+        padding: 10px 20px; 
+    }
+
+    .flag-wrapper {
+        width: 100px;
+    }
+
+    .flag {
+        width: 50%;
+    }
 }

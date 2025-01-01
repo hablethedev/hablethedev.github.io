@@ -1,3 +1,17 @@
+h3 {
+    text-decoration: underline;
+    color: #ffeeff;
+}
+
+a {
+    color: #ffffff; 
+}
+
+a:visited {
+    color: #ffddff;
+}
+
+
 body, html {
     margin: 0;
     padding: 0;

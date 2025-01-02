@@ -1,0 +1,35 @@
+# The Idea (Day 1)
+## Elevator Pitch KINDA Thing
+Physics based puzzle/adventure game. You're a courier and you have to deliver packages back and forth and back and forth. The catch? Parcels are sentient, because I *felt like it*. 
+There are 4 different types of parcels, and you have to deliver them to quirky people through quirky lands. Get your parcels delivered in-tact (or close enough), and DON'T GET FIRED!
+
+## The Actual Elevator Pitch
+[Name] is a physics based puzzle/adventure game, in which you play as a courier delivering packages back and forth. You have to keep all the sentient, safe packages that can cause 4 types of
+mischief, whilst trying to make a good time. Along the way, you'll find obstacles such as gravity-flipping gardens. 
+
+## Types of Parcels
+(in order of difficulty, hard -> easy)
+"Extreme Care" - From some random, weird shady guy. Don't go too fast or too slow, they've been known to explode.
+"Time Sensitive" - It's... time sensitive. Gotta go fast!
+"Clinger" - Sticks to random objects. The only way you can unstick it? Crowbar.
+"Jumper" - Hops out of your grip, or sometimes even van.
+
+## Challenges
+(in no particular order)
+Gardens - "Oh hey! A garden! WHY THE HELL AM I FLYING-" Inverts your gravity. Oh, and, clouds kill you. Don't ask why.
+Some Random Hill - "COME BACK HERE... GODDARN WIND." Wind Turbines are known to be in places with good wind. So why are you there? Don't lose your packages.
+Birthday Party - "Boing... boing... boing..." Oh, a bouncy castle. Great. Don't lose your packages whilst on here.
+
+## Upgrades
+(in no particular order)
+Haven't got names for these yet!
+Speed upgrade - Be faster, be better...?
+Taming upgrade - Calm those pesky parcels down a notch.
+Durability upgrade - Protect your van from *you* not taking extreme care.
+Health upgrade - Same as durability, but for you. You know, so you don’t die.
+
+## Art Style
+Simple, but vibrant and cartoony, plus lots of effects like stretching.
+Oh, also, packages have faces.
+
+Well, see you tomorrow - in godot!

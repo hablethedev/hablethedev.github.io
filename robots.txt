@@ -1,0 +1,42 @@
+# block s****y ai companies 
+
+# PLEASE, IF YOU FIND MORE, MAKE A PR! I HATE AI SCRAPING MY SITE :<
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+# I wonder if there's a way to block known scrapers automatically?
+
+# In case we break anything, allow all other bots:
+User-agent: *
+Disallow:

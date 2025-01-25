@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    const scrollDownButton = document.querySelector('.scroll-down')
+    const scrollDownButton = document.querySelector('.glass-box')
     const scrollToLinks = document.querySelectorAll('.scroll-to')
     const mainContent = document.querySelector('.main-content')
 

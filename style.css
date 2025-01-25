@@ -75,7 +75,7 @@ section {
 }
 
 .scroll-down {
-    position: absolute;
+    position: center;
     bottom: 40px;
     right: 10%;
     font-size: 1rem;

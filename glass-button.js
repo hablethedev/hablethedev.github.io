@@ -26,6 +26,11 @@ function initializeGlassEffect(containerSelector, options = {}) {
             mouseY = e.clientY;
         });
 
+        container.addEventListener('mouseleave', () => {
+            targetRotX = 0;
+            targetRotY = 0;
+        });
+
         function updateBoxPosition() {
             const rect = box.getBoundingClientRect();
             return {
@@ -61,14 +66,16 @@ function initializeGlassEffect(containerSelector, options = {}) {
                 currentRotY *= physics.damping;
 
                 box.style.transform = `
-                    translate3d(0, 0, 0)
                     rotateX(${currentRotX}deg)
                     rotateY(${currentRotY}deg)
                 `;
             }
-
             requestAnimationFrame(animate);
         }
+
         animate();
     });
 }
+
+// oh.
+initializeGlassEffect('.glass-container');

@@ -9,8 +9,8 @@
 }
 
 .glass-box {
-    width: 250px;
-    height: 250px;
+    width: 75px;
+    height: 50px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     border-radius: 20px;
